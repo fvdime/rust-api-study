@@ -6,7 +6,7 @@ I setup Ubuntu on my machine. It was challenging yet fun
 I wanna share the steps that I followed 
 
 1. ENABLING WINDOWS SUBSYSTEM FOR LINUX
-- Enable-WindowsOprioonalFeature: Microsoft-Windows-Subsytem-Linux
+- Enable-WindowsOptinoalFeature: Microsoft-Windows-Subsytem-Linux(It was already enabled for me but I did it anyways)
 
 2. Installing Ubuntu(or any OS you want) on Microsoft Store
 
@@ -14,7 +14,7 @@ I wanna share the steps that I followed
 - Settings>General>Use the WSL 2 based engine (Windows Home can only run the WSL 2 backend) 
 (It was already checked for me)
 - Seetings>Resoures>WSL Integration>Enable integration with additional distros:
-(I checked the Ubuntu for me)
+(I checked Ubuntu for me)
 
 4. Rust installation Command with WSL
 - curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
